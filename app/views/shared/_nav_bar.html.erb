@@ -1,0 +1,51 @@
+<div >
+	<div class="logo" >
+	<a href="index.html" class="piecesOfEight piecesOfEight-space piecesOfEight-big piecesOfEight-golden">
+		Jack's Beers
+	</a>
+	<p class="piecesOfEight piecesOfEight-space piecesOfEight-xs piecesOfEight-white">Lorem impsum dolor persecutor</p>
+</div>
+<div class="icons">
+	<ul class="nav  ">
+		<li>
+			<a class=" fa fa-facebook fa-2x" href="#">
+			</a>
+		</li>
+		<li>
+			<a class=" fa fa-twitter fa-2x" href="#">
+			</a>
+		</li>
+		<li>
+			<a class=" fa fa-instagram fa-2x" href="#">	
+			</a>
+		</li>
+	</ul>
+</div>
+<div class="">
+	<ul class="nav nav-pills nav-stacked piecesOfEight piecesOfEight-space piecesOfEight-xxs piecesOfEight-white">
+		<li role="presentation" class="active">
+			<a class= "piecesOfEight-white" id="home-jump"  href="#" ><i class="fa fa-home fa-lg piecesOfEight-white"></i> Inicio</a>
+		</li>
+		<li>
+			<a id="services-jump" href="#"><i class="fa fa-beer fa-lg piecesOfEight-white"></i> Tienda</a>
+		</li>
+		<li>
+			<a href="#">Acerca de Jack</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-globe fa-lg piecesOfEight-white"></i> Redes sociales <span class="badge">new</span> </a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-map fa-lg piecesOfEight-white"></i> Cobertura</a>
+		</li>
+		<li>
+			<a href="#"><i class="fa fa-envelope fa-lg piecesOfEight-white"></i> Contacto</a>
+		</li>
+		<% if !current_user.nil? %>
+			<li>
+				<a href="#"><i class="fa fa-sign-out fa-lg piecesOfEight-white"></i> Salir</a>
+			</li>
+		<% end %>
+	</ul>
+</div>
+</div>

@@ -43,5 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 gem  'httparty'
+#gem 'redis'
+gem "redis-rails"
 #gem 'validates_email_format_of'
 

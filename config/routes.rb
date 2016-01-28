@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'home/index'
+  root 'home#index'
   resources :users, only: [:new, :create]
 
   # The priority is based upon order of creation: first created -> highest priority.

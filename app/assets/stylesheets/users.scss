@@ -1,3 +1,148 @@
 // Place all the styles related to the users controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#new-user-section{
+
+	background:  url(image-path("pirates-wallpaper-3.1.jpg")) no-repeat left bottom fixed; 
+}
+
+.user-btn-link-1 {
+	display: inline-block;
+	height: 50px;
+	margin: 5px;
+	padding: 16px 20px 0 20px;
+	background: #4aaf51;
+	font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.user-btn-link-1:hover, .user-btn-link-1:focus, .user-btn-link-1:active { outline: 0; opacity: 0.6; color: #fff; }
+
+.user-btn-link-1-facebook { 
+	background: #4862a3; 
+}
+.user-btn-link-1-twitter { background: #55acee; }
+.user-btn-link-1-google-plus { background: #dd4b39; }
+
+.user-btn-link-1 i {
+	padding-right: 5px;
+	vertical-align: middle;
+	//font-size: 20px;
+	line-height: 20px;
+}
+
+.user-btn-link-2 {
+	display: inline-block;
+	height: 50px;
+	margin: 5px;
+	padding: 15px 20px 0 20px;
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px solid #fff;
+	//font-size: 16px;
+    //font-weight: 300;
+    line-height: 16px;
+    color: #fff;
+    -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;
+}
+.user-btn-link-2:hover, .user-btn-link-2:focus, .user-btn-link-2:active, .user-btn-link-2:active:focus { 
+	//outline: 0; opacity: 0.6; background: rgba(0, 0, 0, 0.3); color: #fff; 
+}
+
+
+/***** Top content *****/
+
+.user-inner-bg {
+    //padding: 100px 0 170px 0;
+}
+
+.user-top-content .user-text {
+	//color: #fff;
+}
+
+.user-top-content .user-text h1 {
+// color: #fff; 
+}
+
+.user-top-content .user-description {
+	//margin: 20px 0 10px 0;
+}
+
+.user-top-content .user-description p { opacity: 0.8; }
+
+.user-top-content .user-description a {
+	color: #fff;
+}
+.user-top-content .user-description a:hover, 
+.user-top-content .user-description a:focus { border-bottom: 1px dotted #fff; }
+
+.user-form-box {
+//	margin-top: 35px;
+//	background-color: rgba(71, 72, 71, 0.5);
+}
+.user-form-box input{
+	height: 50px;
+	padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.user-form-top {
+	overflow: hidden;
+	//padding: 0 25px 15px 25px;
+	//background: #fff;
+	//background-color: rgba(255, 255, 255, 0.2);
+	-moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+	text-align: left;
+}
+
+.user-form-top-left {
+	float: left;
+	width: 100%;
+	//padding-top: 25px;
+}
+
+.user-form-top-left h3 { margin-top: 0; }
+
+.user-form-top-right {
+	float: left;
+	width: 25%;
+	//padding-top: 5px;
+	font-size: 66px;
+	color: #ddd;
+	line-height: 100px;
+	text-align: right;
+}
+
+.user-form-bottom {
+	//padding: 25px 25px 30px 25px;
+	//background: #eee;
+	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+	text-align: left;
+}
+
+.user-form-bottom form textarea {
+	height: 100px;
+}
+
+.user-form-bottom form button.btn {
+	width: 100%;
+}
+
+.user-form-bottom form .input-error {
+	border-color: #4aaf51;
+}
+
+.user-social-login {
+	//margin-top: 35px;
+}
+
+.user-social-login h3 {
+	//color: #fff;
+}
+
+.user-social-login-buttons a{
+	//margin-top: 25px;
+	width: 100%;
+	margin-bottom: 10px;
+}

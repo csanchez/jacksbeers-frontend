@@ -1,0 +1,45 @@
+
+#main-section{
+    
+    
+}
+
+.menu-bar{
+
+  background-color:  #474847;
+}
+
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.logo {
+    height: auto;
+    padding: 10px 0 10px;
+    text-align: center;
+    width: 100%;
+}
+
+a img {
+    border: medium none;
+}
+img {
+    vertical-align: top;
+}
+
+.logo a img{
+  margin: auto;
+}
+.icons ul{
+    margin: auto;
+    display: block; text-align:center; 
+}
+.icons ul li {
+    display: inline-block;
+    //padding: 0 1em 0 0;
+    margin: auto;
+}
+
+.nav-bar-no-padding-bottom{
+    margin-bottom: 0px;
+}

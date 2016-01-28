@@ -1,0 +1,98 @@
+// Place all the styles related to the beers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar2{
+	padding-top: 100px;
+}
+
+
+.beer-image-container{
+	margin: auto;
+}
+.beer-image-container:hover  button{
+  //display: block;
+  //opacity: 0.5;
+  //  filter: alpha(opacity=50); /* For IE8 and earlier */
+  }
+
+.beer-image-container button {
+
+    position:absolute;
+	right:0;
+	top:0px;
+	z-index:1;
+
+ 	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:copy;
+    overflow: hidden;
+    outline:none;
+}
+
+.beer-image-container button{
+	
+  //width:50%;
+}
+
+.beer-image-container button:hover {
+    color: red;
+}
+
+.counter{
+  background: #ff9500 none repeat scroll 0 0;
+  border-radius: 50%;
+  width: 30px;
+    color: white;
+    display: block;
+    float: right;
+    font-size: 13px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: -5px;
+    padding-top: 5px;
+    text-align: center;
+    
+}
+
+.beer-title{
+   font-size: 20px;
+   height: 50px;
+  // border: 1px solid silver;
+}
+
+.beer-subtitle{
+   font-size: 15px;
+   height: 50px;
+  // border: 1px solid silver;
+}
+
+
+.out-of-stock-span{
+  text-align: center;
+  margin: auto;
+  position: absolute; 
+   bottom: 30%; 
+   left: 0; 
+   width: 100%; 
+   color: white; 
+    //padding:0 5px;
+   
+   
+   //padding: 10px; 
+}
+
+
+.out-of-stock-span span{
+  background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+}
+
+.no-visible-button{
+  visibility: hidden;
+}
+
+.visible-button{
+  visibility: visible;
+}

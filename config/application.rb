@@ -22,5 +22,11 @@ module CustomerFrontend
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    config.cache_store = :redis_store, { host: "localhost",
+                                     port: 6379,
+                                     db: 0,
+                                     password: "7rV$2_jX",
+                                     namespace: "cache",
+                                     expires_in: 90.minutes }
   end
 end

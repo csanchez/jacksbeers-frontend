@@ -1,0 +1,1896 @@
+/* line 5, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.navbar2 {
+  padding-top: 100px;
+}
+
+/* line 10, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.beer-image-container {
+  margin: auto;
+}
+
+/* line 19, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.beer-image-container button {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: copy;
+  overflow: hidden;
+  outline: none;
+}
+
+/* line 39, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.beer-image-container button:hover {
+  color: red;
+}
+
+/* line 43, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.counter {
+  background: #ff9500 none repeat scroll 0 0;
+  border-radius: 50%;
+  width: 30px;
+  color: white;
+  display: block;
+  float: right;
+  font-size: 13px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: -5px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+/* line 59, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.beer-title {
+  font-size: 20px;
+  height: 50px;
+}
+
+/* line 65, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.beer-subtitle {
+  font-size: 15px;
+  height: 50px;
+}
+
+/* line 72, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.out-of-stock-span {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+
+/* line 87, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.out-of-stock-span span {
+  background: black;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+}
+
+/* line 92, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.no-visible-button {
+  visibility: hidden;
+}
+
+/* line 96, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/beers.scss */
+.visible-button {
+  visibility: visible;
+}
+@font-face {
+  font-family: PiecesOfEight;
+  src: url("/assets/PiecesOfEight-b8e9fafc2d769e0790d33692ffab93ff7289944fadfa938b7432092e08874904.ttf");
+}
+/* line 6, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-white {
+  color: white;
+}
+
+/* line 9, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-black {
+  color: black;
+}
+
+/* line 12, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-golden {
+  color: #D4AF37;
+}
+
+/* line 15, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-space {
+  letter-spacing: 2px;
+}
+
+/* line 19, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight {
+  font-family: PiecesOfEight !important;
+}
+
+/* line 23, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-price {
+  font-size: 30px !important;
+}
+
+/* line 26, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-xxs {
+  font-size: 15px !important;
+}
+
+/* line 29, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-xs {
+  font-size: 20px !important;
+}
+
+/* line 32, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-sm {
+  font-size: 30px !important;
+}
+
+/* line 35, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-md {
+  font-size: 40px !important;
+}
+
+/* line 39, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-big {
+  font-size: 60px;
+}
+
+/* line 43, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-xbig {
+  font-size: 80px;
+}
+
+/* line 46, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-center {
+  text-align: center;
+}
+
+/* line 49, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.piecesOfEight-left {
+  text-align: left;
+}
+
+/* line 52, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.full-screen-container-fluid {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 67, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
+/* line 79, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.navbar-brand {
+  font-size: 50px !important;
+}
+
+/* line 84, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.centered-image {
+  margin: auto;
+}
+
+/* line 88, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.border-blue {
+  border: 1px solid blue;
+}
+
+/* line 93, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.border-red {
+  border: 1px solid red;
+}
+
+/* line 97, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.background-red {
+  background-color: red;
+}
+
+/* line 101, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.border-yellow {
+  border: 1px solid yellow;
+}
+
+/* line 107, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.border-pink {
+  border: 1px solid pink;
+}
+
+/* line 111, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.full-div {
+  height: 90%;
+  background-color: blue;
+}
+
+/* line 116, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+section {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+/* line 123, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.content-section:before {
+  padding-bottom: 20px !important;
+  background: #545454;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+}
+
+/* line 135, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+#section-footer {
+  width: 100%;
+  height: 10%;
+}
+
+/* line 147, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.background-dark {
+  background: rgba(71, 72, 71, 0.9);
+}
+
+/* line 153, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.pagetitle {
+  color: #B0C4DE;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+/* line 161, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.section-title {
+  color: #B0C4DE;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 40px;
+  margin-bottom: 30px;
+  margin-top: -60px;
+}
+
+/* line 171, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.spaced-form-group {
+  padding-bottom: 10px;
+}
+
+/* line 179, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.panel {
+  background-color: none !important;
+  border: none !important;
+}
+
+/* line 184, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.panel-default {
+  background-color: none !important;
+  border-color: none !important;
+  border: none !important;
+}
+
+/* line 191, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.section-separator {
+  height: 250px;
+  text-align: center;
+}
+
+/* line 195, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.section-separator {
+  background: url("/assets/wood-texture-1-ac1bf87de4a15c968ce68c94d08e86cabaa01c6df442c01c3fb14dcf2dbd92db.jpg") repeat-x;
+}
+
+/* line 199, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+#bottom-separator {
+  background: url("/assets/ship-bottom-0f1ae16421ec948bb7110786ac935e007dcd4be762c129e71a52f38a62633a1f.png") repeat-x;
+}
+
+/* line 202, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.section-separator .message {
+  height: 100%;
+}
+
+/** cards **/
+/* line 210, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card {
+  background-color: rgba(71, 72, 71, 0.5);
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 0.75rem;
+  position: relative;
+  text-align: center;
+}
+
+/* line 226, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-with-opacity {
+  background: rgba(0, 54, 54, 0.5);
+}
+
+/* line 230, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-with-opacity-full {
+  background: transparent;
+}
+
+/* line 235, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-with-no-border {
+  border: none;
+}
+
+/* line 238, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.img-rounded-corners {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+/* line 245, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-img-top {
+  vertical-align: middle;
+}
+
+/* line 250, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-block {
+  padding: 1.25rem;
+}
+
+/* line 254, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+/* line 257, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-text {
+  color: white;
+}
+
+/* line 261, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-img-overlay {
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 269, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.home-card-img-overlay {
+  top: 30% !important;
+}
+
+/* line 273, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.card-title {
+  margin-bottom: 0.75rem;
+}
+
+/* cards */
+/* flipped cards */
+/* line 279, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.auto-height {
+  height: auto !important;
+  min-height: auto !important;
+}
+
+/* line 284, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.no-background-card {
+  background-color: Transparent !important;
+}
+
+/* carousel */
+/* line 289, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-carousel {
+  width: 70% !important;
+  margin: auto;
+}
+
+/* flipped cards */
+/* line 296, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+#owl-demo .item {
+  display: block;
+  padding: 30px 0px;
+  margin: 5px;
+  color: #FFF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/* line 308, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  padding: 5px 9px;
+}
+
+/* line 312, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-theme .owl-buttons i {
+  margin-top: 2px;
+}
+
+/* line 318, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+/* line 322, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: -45px;
+  top: 55px;
+}
+
+/* line 327, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.owl-theme .owl-controls .owl-buttons .owl-next {
+  right: -45px;
+  top: 55px;
+}
+
+/* carousel */
+/* jacksbeerscolumns */
+/* line 335, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.min-padding {
+  padding: 2px 2px 2px 2px;
+}
+
+@media (max-width: 1000px) {
+  /* line 342, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .content-section {
+    background: #545454;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #545454 0%, #8c8888 25%, #bcb8b8 54%, white 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#545454', endColorstr='#ffffff',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */
+    height: auto;
+    min-height: auto;
+  }
+}
+@media (max-width: 500px) {
+  /* line 360, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .piecesOfEight-big {
+    font-size: 40px;
+  }
+
+  /* line 363, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .piecesOfEight-md {
+    font-size: 20px;
+  }
+
+  /* line 366, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .piecesOfEight-xbig {
+    font-size: 60px;
+  }
+
+  /* line 369, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .piecesOfEight-sm {
+    font-size: 20px;
+  }
+
+  /* line 372, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+  .piecesOfEight-price {
+    font-size: 30px;
+  }
+}
+/* line 379, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+#nav-affix {
+  position: fixed;
+  top: 0;
+  border: 1px solid black;
+  width: 50%;
+  z-index: 20;
+}
+
+/*footer */
+/* line 390, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.footer-distributed {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  margin-top: 80px;
+  padding: 55px 50px;
+  text-align: left;
+  width: 100%;
+  background: url("/assets/footer-07ca24dc19067922eaed45242c6d856d0c8e11a4cbd0a3a5002bce1697869937.png") no-repeat;
+  height: 500px;
+}
+
+/* line 409, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 414, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/commons.scss */
+.footer-left {
+  width: 40%;
+}
+/* line 2, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+input[type="text"],
+input[type="password"],
+textarea,
+textarea.form-control {
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #f8f8f8;
+  border: 3px solid #ddd;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #888;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 22, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+textarea,
+textarea.form-control {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 30px;
+}
+
+/* line 29, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+  outline: 0;
+  background: #fff;
+  border: 3px solid #ccc;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 39, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder,
+textarea:-moz-placeholder, textarea.form-control:-moz-placeholder {
+  color: #888;
+}
+
+/* line 42, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder {
+  color: #888;
+}
+
+/* line 45, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder {
+  color: #888;
+}
+
+/* line 50, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+button.btn {
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+  vertical-align: middle;
+  background: #4aaf51;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  text-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;
+}
+
+/* line 70, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+button.btn:active {
+  outline: 0;
+  opacity: 0.6;
+  color: #fff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* line 72, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+button.btn:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #4aaf51;
+  color: #fff;
+}
+
+/* line 74, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/form-elements.scss */
+button.btn:active:focus, button.btn.active:focus {
+  outline: 0;
+  opacity: 0.6;
+  background: #4aaf51;
+  color: #fff;
+}
+/* line 2, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.content-collumn {
+  overflow: scroll;
+}
+
+/* line 10, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.about-container {
+  background-color: #474847;
+  background-color: rgba(71, 72, 71, 0.5);
+  border-radius: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*@media (max-width: 768px ) { 
+  .content-section{
+    
+    height: auto;
+    min-height: auto;
+  }
+} */
+/* line 30, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#row-content {
+  /*background:  url(image-path("pirates-wallpaper-3.1.jpg")) no-repeat left bottom fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+
+/* line 38, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#home-section {
+  /* background-image: url("pirates-wallpaper-2.1.jpg");
+  // background-size:100% auto;
+   background-repeat: no-repeat;
+  // height: 100%;*/
+}
+
+/* line 47, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#about-section {
+  background: url("/images/lighthouse.png") no-repeat left bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -10px;
+}
+
+/* line 58, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#services-section {
+ /* background-image: url("pirates-wallpaper-2.1.jpg");
+// background-size:100% auto;
+ background-repeat: no-repeat;
+// height: 100%;*/
+  background: url("/images/pirates-wallpaper-3.1.jpg") no-repeat left bottom fixed;
+  background-size: 100% auto;
+}
+
+/* line 75, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#contact-section {
+  background: url("/images/pirates-wallpaper-4.1.jpg") no-repeat left bottom fixed;
+  background-size: 100% auto;
+}
+
+/*  Contact section*/
+/* line 87, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.note {
+  margin-bottom: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* line 93, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#contact-info {
+  height: 100%;
+  min-height: 100%;
+  padding: 30px 25px;
+}
+
+/* line 101, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#contact-info dt {
+  color: #e8554e;
+  font-family: "brandon-grotesque",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 110, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#contact-info dd {
+  margin-bottom: 15px;
+}
+
+/*  Estilos para el carousel*/
+/* line 119, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#owl-demo .item {
+  margin: 3px;
+}
+
+/* line 122, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#owl-demo .item img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+/* line 132, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+#carousel-beers {
+  margin: auto;
+  width: 100%;
+}
+
+/* line 137, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.carousel-beers-inner {
+  margin: auto;
+  width: 80%;
+}
+
+/* line 149, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.image-container img {
+  width: 100%;
+  margin: auto;
+}
+
+/* line 155, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.image-beer-carousel {
+  width: 70%;
+}
+
+/* line 161, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.floating-buttons {
+  width: 150px;
+  position: fixed;
+  top: 2em;
+  right: 10px;
+  text-decoration: none;
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* line 173, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.floating-buttons-item {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* line 179, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/home.scss */
+.floating-buttons-item button {
+  width: 100%;
+}
+/* line 7, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.menu-bar {
+  background-color: #474847;
+}
+
+/* line 16, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.logo {
+  height: auto;
+  padding: 10px 0 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 23, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+a img {
+  border: medium none;
+}
+
+/* line 26, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+img {
+  vertical-align: top;
+}
+
+/* line 30, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.logo a img {
+  margin: auto;
+}
+
+/* line 33, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.icons ul {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+/* line 37, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.icons ul li {
+  display: inline-block;
+  margin: auto;
+}
+
+/* line 43, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/nav_bar.scss */
+.nav-bar-no-padding-bottom {
+  margin-bottom: 0px;
+}
+/*!
+ * Default theme for Pingendo 
+ * Homepage: http://pingendo.com  
+ * Copyright 2015 Pingendo 
+ * Licensed under MIT 
+ * Based on Bootstrap v3.3.4
+*/
+/* Add custom CSS classes here 
+ * 
+ * img {
+ *   box-shadow : 0px 0px 10px black !important;
+ * }
+*/
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/mixins.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/normalize.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/print.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/glyphicons.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/scaffolding.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/type.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/code.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/grid.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/tables.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/forms.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/buttons.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/component-animations.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/dropdowns.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/button-groups.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/input-groups.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/navs.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/navbar.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/breadcrumbs.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/pagination.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/pager.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/labels.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/badges.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/jumbotron.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/thumbnails.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/alerts.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/progress-bars.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/media.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/list-group.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/panels.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/responsive-embed.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/wells.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/close.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/modals.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/tooltip.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/popovers.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/carousel.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/utilities.less";
+@import "https://raw.githubusercontent.com/twbs/bootstrap/v3.3.4/less/responsive-utilities.less";
+@import "https://raw.githubusercontent.com/Pingendo/pingendo-bootstrap/gh-pages/less/pingendo-custom.less";
+@gray-base : #000;
+@gray-darker : lighten(@gray-base, 13.5%);
+@gray-dark : lighten(@gray-base, 20%);
+@gray : lighten(@gray-base, 33.5%);
+@gray-light : lighten(@gray-base, 46.7%);
+@gray-lighter : lighten(@gray-base, 93.5%);
+@brand-primary : #337CBB;
+@brand-success : #5cb85c;
+@brand-info : #5bc0de;
+@brand-warning : #f0ad4e;
+@brand-danger : #d9534f;
+@body-bg : white;
+@text-color : black;
+@link-color : @brand-primary;
+@link-hover-color : darken(@link-color, 15%);
+@link-hover-decoration : underline;
+@font-family-sans-serif : "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+@font-family-serif : Georgia,
+"Times New Roman",
+Times,
+serif;
+@font-family-monospace : Menlo,
+Monaco,
+Consolas,
+"Courier New",
+monospace;
+@font-family-base : Lato;
+@font-size-base : 14px;
+@font-size-large : ceil((@font-size-base * 1.25));
+@font-size-small : ceil((@font-size-base * 0.85));
+@font-size-h1 : floor((@font-size-base * 2.6));
+@font-size-h2 : floor((@font-size-base * 2.15));
+@font-size-h3 : ceil((@font-size-base * 1.7));
+@font-size-h4 : ceil((@font-size-base * 1.25));
+@font-size-h5 : @font-size-base;
+@font-size-h6 : ceil((@font-size-base * 0.85));
+@line-height-base : 1.428571429;
+@line-height-computed : floor((@font-size-base * @line-height-base));
+@headings-font-family : Lato;
+@headings-font-weight : 500;
+@headings-line-height : 1.1;
+@headings-color : inherit;
+@icon-font-path : "../fonts/";
+@icon-font-name : "glyphicons-halflings-regular";
+@icon-font-svg-id : "glyphicons_halflingsregular";
+@padding-base-vertical : 6px;
+@padding-base-horizontal : 12px;
+@padding-large-vertical : 10px;
+@padding-large-horizontal : 16px;
+@padding-small-vertical : 5px;
+@padding-small-horizontal : 10px;
+@padding-xs-vertical : 1px;
+@padding-xs-horizontal : 5px;
+@line-height-large : 1.3333333;
+@line-height-small : 1.5;
+@border-radius-base : 4px;
+@border-radius-large : 6px;
+@border-radius-small : 3px;
+@component-active-color : contrast(@component-active-bg, @text-color, @text-inverse, 43%);
+@component-active-bg : @brand-primary;
+@caret-width-base : 4px;
+@caret-width-large : 5px;
+@table-cell-padding : 8px;
+@table-condensed-cell-padding : 5px;
+@table-bg : transparent;
+@table-bg-accent : #f9f9f9;
+@table-bg-hover : #f5f5f5;
+@table-bg-active : @table-bg-hover;
+@table-border-color : #ddd;
+@btn-font-weight : normal;
+@btn-default-color : @text-color;
+@btn-default-bg : @body-bg;
+@btn-default-border : #ccc;
+@btn-primary-color : white;
+@btn-primary-bg : @brand-primary;
+@btn-primary-border : darken(@btn-primary-bg, 5%);
+@btn-success-color : white;
+@btn-success-bg : @brand-success;
+@btn-success-border : darken(@btn-success-bg, 5%);
+@btn-info-color : white;
+@btn-info-bg : @brand-info;
+@btn-info-border : darken(@btn-info-bg, 5%);
+@btn-warning-color : white;
+@btn-warning-bg : @brand-warning;
+@btn-warning-border : darken(@btn-warning-bg, 5%);
+@btn-danger-color : contrast(@btn-danger-bg, @text-color, @text-inverse, 43%);
+@btn-danger-bg : @brand-danger;
+@btn-danger-border : darken(@btn-danger-bg, 5%);
+@btn-link-disabled-color : @gray-light;
+@input-bg : #fff;
+@input-bg-disabled : @gray-lighter;
+@input-color : @gray;
+@input-border : #ccc;
+@input-border-radius : @border-radius-base;
+@input-border-radius-large : @border-radius-large;
+@input-border-radius-small : @border-radius-small;
+@input-border-focus : #66afe9;
+@input-color-placeholder : #999;
+@input-height-base : (@line-height-computed + (@padding-base-vertical * 2) + 2);
+@input-height-large : (ceil(@font-size-large * @line-height-large) + (@padding-large-vertical * 2) + 2);
+@input-height-small : (floor(@font-size-small * @line-height-small) + (@padding-small-vertical * 2) + 2);
+@form-group-margin-bottom : 15px;
+@legend-color : @gray-dark;
+@legend-border-color : #e5e5e5;
+@input-group-addon-bg : @gray-lighter;
+@input-group-addon-border-color : @input-border;
+@cursor-disabled : not-allowed;
+@dropdown-bg : #fff;
+@dropdown-border : rgba(0, 0, 0, .15);
+@dropdown-fallback-border : #ccc;
+@dropdown-divider-bg : #e5e5e5;
+@dropdown-link-color : @gray-dark;
+@dropdown-link-hover-color : darken(@gray-dark, 5%);
+@dropdown-link-hover-bg : #f5f5f5;
+@dropdown-link-active-color : @component-active-color;
+@dropdown-link-active-bg : @component-active-bg;
+@dropdown-link-disabled-color : @gray-light;
+@dropdown-header-color : @gray-light;
+@dropdown-caret-color : #000;
+@zindex-navbar : 1000;
+@zindex-dropdown : 1000;
+@zindex-popover : 1060;
+@zindex-tooltip : 1070;
+@zindex-navbar-fixed : 1030;
+@zindex-modal-background : 1040;
+@zindex-modal : 1050;
+@screen-xs : 480px;
+@screen-xs-min : @screen-xs;
+@screen-phone : @screen-xs-min;
+@screen-sm : 768px;
+@screen-sm-min : @screen-sm;
+@screen-tablet : @screen-sm-min;
+@screen-md : 992px;
+@screen-md-min : @screen-md;
+@screen-desktop : @screen-md-min;
+@screen-lg : 1200px;
+@screen-lg-min : @screen-lg;
+@screen-lg-desktop : @screen-lg-min;
+@screen-xs-max : (@screen-sm-min - 1);
+@screen-sm-max : (@screen-md-min - 1);
+@screen-md-max : (@screen-lg-min - 1);
+@grid-columns : 12;
+@grid-gutter-width : 30px;
+@grid-float-breakpoint : @screen-sm-min;
+@grid-float-breakpoint-max : (@grid-float-breakpoint - 1);
+@container-tablet : (720px + @grid-gutter-width);
+@container-sm : @container-tablet;
+@container-desktop : (940px + @grid-gutter-width);
+@container-md : @container-desktop;
+@container-large-desktop : (1140px + @grid-gutter-width);
+@container-lg : @container-large-desktop;
+@navbar-height : 50px;
+@navbar-margin-bottom : @line-height-computed;
+@navbar-border-radius : @border-radius-base;
+@navbar-padding-horizontal : floor((@grid-gutter-width / 2));
+@navbar-padding-vertical : ((@navbar-height - @line-height-computed) / 2);
+@navbar-collapse-max-height : 340px;
+@navbar-default-color : black;
+@navbar-default-bg : #f8f8f8;
+@navbar-default-border : darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-color : contrast(@navbar-default-bg, @text-color, @text-inverse, 43%);
+@navbar-default-link-hover-color : @navbar-default-color;
+@navbar-default-link-hover-bg : transparent;
+@navbar-default-link-active-color : @navbar-default-color;
+@navbar-default-link-active-bg : darken(@navbar-default-bg, 6.5%);
+@navbar-default-link-disabled-color : #ccc;
+@navbar-default-link-disabled-bg : transparent;
+@navbar-default-brand-color : @navbar-default-link-color;
+@navbar-default-brand-hover-color : darken(@navbar-default-brand-color, 10%);
+@navbar-default-brand-hover-bg : transparent;
+@navbar-default-toggle-hover-bg : #ddd;
+@navbar-default-toggle-icon-bar-bg : #888;
+@navbar-default-toggle-border-color : #ddd;
+@navbar-inverse-color : lighten(@gray-light, 15%);
+@navbar-inverse-bg : #222;
+@navbar-inverse-border : darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-color : lighten(@gray-light, 15%);
+@navbar-inverse-link-hover-color : #fff;
+@navbar-inverse-link-hover-bg : transparent;
+@navbar-inverse-link-active-color : @navbar-inverse-link-hover-color;
+@navbar-inverse-link-active-bg : darken(@navbar-inverse-bg, 10%);
+@navbar-inverse-link-disabled-color : #444;
+@navbar-inverse-link-disabled-bg : transparent;
+@navbar-inverse-brand-color : @navbar-inverse-link-color;
+@navbar-inverse-brand-hover-color : #fff;
+@navbar-inverse-brand-hover-bg : transparent;
+@navbar-inverse-toggle-hover-bg : #333;
+@navbar-inverse-toggle-icon-bar-bg : #fff;
+@navbar-inverse-toggle-border-color : #333;
+@nav-link-padding : 10px 15px;
+@nav-link-hover-bg : @gray-lighter;
+@nav-disabled-link-color : @gray-light;
+@nav-disabled-link-hover-color : @gray-light;
+@nav-tabs-border-color : #ddd;
+@nav-tabs-link-hover-border-color : @gray-lighter;
+@nav-tabs-active-link-hover-bg : @body-bg;
+@nav-tabs-active-link-hover-color : @gray;
+@nav-tabs-active-link-hover-border-color : #ddd;
+@nav-tabs-justified-link-border-color : #ddd;
+@nav-tabs-justified-active-link-border-color : @body-bg;
+@nav-pills-border-radius : @border-radius-base;
+@nav-pills-active-link-hover-bg : @component-active-bg;
+@nav-pills-active-link-hover-color : @component-active-color;
+@pagination-color : @link-color;
+@pagination-bg : #fff;
+@pagination-border : #ddd;
+@pagination-hover-color : @link-hover-color;
+@pagination-hover-bg : @gray-lighter;
+@pagination-hover-border : #ddd;
+@pagination-active-color : #fff;
+@pagination-active-bg : @brand-primary;
+@pagination-active-border : @brand-primary;
+@pagination-disabled-color : @gray-light;
+@pagination-disabled-bg : #fff;
+@pagination-disabled-border : #ddd;
+@pager-bg : @pagination-bg;
+@pager-border : @pagination-border;
+@pager-border-radius : 15px;
+@pager-hover-bg : @pagination-hover-bg;
+@pager-active-bg : @pagination-active-bg;
+@pager-active-color : @pagination-active-color;
+@pager-disabled-color : @pagination-disabled-color;
+@jumbotron-padding : 30px;
+@jumbotron-color : inherit;
+@jumbotron-bg : @gray-lighter;
+@jumbotron-heading-color : inherit;
+@jumbotron-font-size : ceil((@font-size-base * 1.5));
+@jumbotron-heading-font-size : ceil((@font-size-base * 4.5));
+@state-success-text : @brand-success;
+@state-success-bg : lighten(@brand-success, 20%);
+@state-success-border : darken(spin(@state-success-bg, -10), 5%);
+@state-info-text : @brand-info;
+@state-info-bg : lighten(@brand-info, 20%);
+@state-info-border : darken(spin(@state-info-bg, -10), 7%);
+@state-warning-text : @brand-warning;
+@state-warning-bg : lighten(@brand-warning, 20%);
+@state-warning-border : darken(spin(@state-warning-bg, -10), 5%);
+@state-danger-text : @brand-danger;
+@state-danger-bg : lighten(@brand-danger, 20%);
+@state-danger-border : darken(spin(@state-danger-bg, -10), 5%);
+@tooltip-max-width : 200px;
+@tooltip-color : #fff;
+@tooltip-bg : #000;
+@tooltip-opacity : .9;
+@tooltip-arrow-width : 5px;
+@tooltip-arrow-color : @tooltip-bg;
+@popover-bg : #fff;
+@popover-max-width : 276px;
+@popover-border-color : rgba(0, 0, 0, .2);
+@popover-fallback-border-color : #ccc;
+@popover-title-bg : darken(@popover-bg, 3%);
+@popover-arrow-width : 10px;
+@popover-arrow-color : @popover-bg;
+@popover-arrow-outer-width : (@popover-arrow-width + 1);
+@popover-arrow-outer-color : fadein(@popover-border-color, 5%);
+@popover-arrow-outer-fallback-color : darken(@popover-fallback-border-color, 20%);
+@label-default-bg : @gray-light;
+@label-primary-bg : @brand-primary;
+@label-success-bg : @brand-success;
+@label-info-bg : @brand-info;
+@label-warning-bg : @brand-warning;
+@label-danger-bg : @brand-danger;
+@label-color : #fff;
+@label-link-hover-color : #fff;
+@modal-inner-padding : 15px;
+@modal-title-padding : 15px;
+@modal-title-line-height : @line-height-base;
+@modal-content-bg : #fff;
+@modal-content-border-color : rgba(0, 0, 0, .2);
+@modal-content-fallback-border-color : #999;
+@modal-backdrop-bg : #000;
+@modal-backdrop-opacity : .5;
+@modal-header-border-color : #e5e5e5;
+@modal-footer-border-color : @modal-header-border-color;
+@modal-lg : 900px;
+@modal-md : 600px;
+@modal-sm : 300px;
+@alert-padding : 15px;
+@alert-border-radius : @border-radius-base;
+@alert-link-font-weight : bold;
+@alert-success-bg : @state-success-bg;
+@alert-success-text : @state-success-text;
+@alert-success-border : @state-success-border;
+@alert-info-bg : @state-info-bg;
+@alert-info-text : @state-info-text;
+@alert-info-border : @state-info-border;
+@alert-warning-bg : @state-warning-bg;
+@alert-warning-text : @state-warning-text;
+@alert-warning-border : @state-warning-border;
+@alert-danger-bg : @state-danger-bg;
+@alert-danger-text : @state-danger-text;
+@alert-danger-border : @state-danger-border;
+@progress-bg : #f5f5f5;
+@progress-bar-color : #fff;
+@progress-border-radius : @border-radius-base;
+@progress-bar-bg : @brand-primary;
+@progress-bar-success-bg : @brand-success;
+@progress-bar-warning-bg : @brand-warning;
+@progress-bar-danger-bg : @brand-danger;
+@progress-bar-info-bg : @brand-info;
+@list-group-bg : @body-bg;
+@list-group-border : darken(@list-group-bg, 40%);
+@list-group-border-radius : @border-radius-base;
+@list-group-hover-bg : #f5f5f5;
+@list-group-active-color : @component-active-color;
+@list-group-active-bg : @component-active-bg;
+@list-group-active-border : @list-group-active-bg;
+@list-group-active-text-color : darken(@list-group-active-bg, 40%);
+@list-group-disabled-color : @gray-light;
+@list-group-disabled-bg : @gray-lighter;
+@list-group-disabled-text-color : @list-group-disabled-color;
+@list-group-link-color : #555;
+@list-group-link-hover-color : @list-group-link-color;
+@list-group-link-heading-color : #333;
+@panel-bg : @body-bg;
+@panel-body-padding : 15px;
+@panel-heading-padding : 10px 15px;
+@panel-footer-padding : @panel-heading-padding;
+@panel-border-radius : @border-radius-base;
+@panel-inner-border : #ddd;
+@panel-footer-bg : #f5f5f5;
+@panel-default-text : @gray-dark;
+@panel-default-border : #ddd;
+@panel-default-heading-bg : #f5f5f5;
+@panel-primary-text : contrast(@brand-primary, @text-color, @text-inverse, 43%);
+@panel-primary-border : @brand-primary;
+@panel-primary-heading-bg : @brand-primary;
+@panel-success-text : @state-success-text;
+@panel-success-border : @state-success-border;
+@panel-success-heading-bg : @state-success-bg;
+@panel-info-text : @state-info-text;
+@panel-info-border : @state-info-border;
+@panel-info-heading-bg : @state-info-bg;
+@panel-warning-text : @state-warning-text;
+@panel-warning-border : @state-warning-border;
+@panel-warning-heading-bg : @state-warning-bg;
+@panel-danger-text : @state-danger-text;
+@panel-danger-border : @state-danger-border;
+@panel-danger-heading-bg : @state-danger-bg;
+@thumbnail-padding : 4px;
+@thumbnail-bg : @body-bg;
+@thumbnail-border : #ddd;
+@thumbnail-border-radius : @border-radius-base;
+@thumbnail-caption-color : @text-color;
+@thumbnail-caption-padding : 9px;
+@well-bg : #f5f5f5;
+@well-border : darken(@well-bg, 7%);
+@badge-color : #fff;
+@badge-link-hover-color : #fff;
+@badge-bg : @gray-light;
+@badge-active-color : @link-color;
+@badge-active-bg : #fff;
+@badge-font-weight : bold;
+@badge-line-height : 1;
+@badge-border-radius : 10px;
+@breadcrumb-padding-vertical : 8px;
+@breadcrumb-padding-horizontal : 15px;
+@breadcrumb-bg : #f5f5f5;
+@breadcrumb-color : #ccc;
+@breadcrumb-active-color : @gray-light;
+@breadcrumb-separator : "/";
+@carousel-text-shadow : 0 1px 2px rgba(0, 0, 0, .6);
+@carousel-control-color : #fff;
+@carousel-control-width : 15%;
+@carousel-control-opacity : .5;
+@carousel-control-font-size : 20px;
+@carousel-indicator-active-bg : #fff;
+@carousel-indicator-border-color : #fff;
+@carousel-caption-color : #fff;
+@close-font-weight : bold;
+@close-color : #000;
+@close-text-shadow : 0 1px 0 #fff;
+@code-color : #c7254e;
+@code-bg : #f9f2f4;
+@kbd-color : #fff;
+@kbd-bg : #333;
+@pre-bg : #f5f5f5;
+@pre-color : @gray-dark;
+@pre-border-color : #ccc;
+@pre-scrollable-max-height : 340px;
+@component-offset-horizontal : 180px;
+@text-muted : @gray-light;
+@abbr-border-color : @gray-light;
+@headings-small-color : @gray-light;
+@blockquote-small-color : @gray-light;
+@blockquote-font-size : (@font-size-base * 1.25);
+@blockquote-border-color : @gray-lighter;
+@page-header-border-color : @gray-lighter;
+@dl-horizontal-offset : @component-offset-horizontal;
+@hr-border : @gray-lighter;
+@section-spacing : 35px;
+/* PINGENDO COMMENT DO NOT REMOVE */
+/*!
+ * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+/* Toggle Styles */
+/* line 10, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#wrapper {
+  padding-left: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 18, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#wrapper.toggled {
+  padding-left: 250px;
+}
+
+/* line 22, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  width: 0;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  background: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* line 38, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#wrapper.toggled #sidebar-wrapper {
+  width: 250px;
+}
+
+/* line 42, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px;
+}
+
+/* line 48, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+#wrapper.toggled #page-content-wrapper {
+  position: absolute;
+  margin-right: -250px;
+}
+
+/* Sidebar Styles */
+/* line 55, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 64, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav li {
+  text-indent: 20px;
+  line-height: 40px;
+}
+
+/* line 69, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav li a {
+  display: block;
+  text-decoration: none;
+  color: #999999;
+}
+
+/* line 75, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav li a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* line 81, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+  text-decoration: none;
+}
+
+/* line 86, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav > .sidebar-brand {
+  height: 65px;
+  font-size: 18px;
+  line-height: 60px;
+}
+
+/* line 92, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav > .sidebar-brand a {
+  color: #999999;
+}
+
+/* line 96, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+.sidebar-nav > .sidebar-brand a:hover {
+  color: #fff;
+  background: none;
+}
+
+@media (min-width: 768px) {
+  /* line 106, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+  #wrapper.toggled {
+    padding-left: 0;
+  }
+
+  /* line 117, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+  #wrapper.toggled #sidebar-wrapper {
+    width: 0;
+  }
+
+  /* line 121, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+  #page-content-wrapper {
+    padding: 20px;
+    position: relative;
+  }
+
+  /* line 126, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/simple-sidebar.scss */
+  #wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0;
+  }
+}
+/* line 4, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+#new-user-section {
+  background: url("/images/pirates-wallpaper-3.1.jpg") no-repeat left bottom fixed;
+}
+
+/* line 9, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 16px 20px 0 20px;
+  background: #4aaf51;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 21, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1:hover, .user-btn-link-1:focus, .user-btn-link-1:active {
+  outline: 0;
+  opacity: 0.6;
+  color: #fff;
+}
+
+/* line 23, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1-facebook {
+  background: #4862a3;
+}
+
+/* line 26, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1-twitter {
+  background: #55acee;
+}
+
+/* line 27, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1-google-plus {
+  background: #dd4b39;
+}
+
+/* line 29, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-1 i {
+  padding-right: 5px;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+/* line 36, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-btn-link-2 {
+  display: inline-block;
+  height: 50px;
+  margin: 5px;
+  padding: 15px 20px 0 20px;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #fff;
+  line-height: 16px;
+  color: #fff;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/***** Top content *****/
+/* line 72, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-top-content .user-description p {
+  opacity: 0.8;
+}
+
+/* line 74, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-top-content .user-description a {
+  color: #fff;
+}
+
+/* line 77, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-top-content .user-description a:hover,
+.user-top-content .user-description a:focus {
+  border-bottom: 1px dotted #fff;
+}
+
+/* line 84, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-box input {
+  height: 50px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+/* line 90, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-top {
+  overflow: hidden;
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+
+/* line 99, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-top-left {
+  float: left;
+  width: 100%;
+}
+
+/* line 105, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-top-left h3 {
+  margin-top: 0;
+}
+
+/* line 107, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-top-right {
+  float: left;
+  width: 25%;
+  font-size: 66px;
+  color: #ddd;
+  line-height: 100px;
+  text-align: right;
+}
+
+/* line 117, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-bottom {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+
+/* line 124, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-bottom form textarea {
+  height: 100px;
+}
+
+/* line 128, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-bottom form button.btn {
+  width: 100%;
+}
+
+/* line 132, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-form-bottom form .input-error {
+  border-color: #4aaf51;
+}
+
+/* line 144, /home/csanche/Documents/PROJECTS/RAILS/JACKSBEERS/jacksbeers-frontend/app/assets/stylesheets/users.scss */
+.user-social-login-buttons a {
+  width: 100%;
+  margin-bottom: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+
+
+
+ */
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+
+/* clearfix */
+
+.owl-carousel .owl-wrapper:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+
+
+.owl-theme .owl-controls{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+/* 
+ *  Owl Carousel CSS3 Transitions 
+ *  v1.3.2
+ */
+
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;
+  animation: fadeIn .7s both ease;
+}
+/* backSlide */
+.owl-backSlide-out {
+  -webkit-animation: backSlideOut 1s both ease;
+  -moz-animation: backSlideOut 1s both ease;
+  animation: backSlideOut 1s both ease;
+}
+.owl-backSlide-in {
+  -webkit-animation: backSlideIn 1s both ease;
+  -moz-animation: backSlideIn 1s both ease;
+  animation: backSlideIn 1s both ease;
+}
+/* goDown */
+.owl-goDown-out {
+  -webkit-animation: scaleToFade .7s ease both;
+  -moz-animation: scaleToFade .7s ease both;
+  animation: scaleToFade .7s ease both;
+}
+.owl-goDown-in {
+  -webkit-animation: goDown .6s ease both;
+  -moz-animation: goDown .6s ease both;
+  animation: goDown .6s ease both;
+}
+/* scaleUp */
+.owl-fadeUp-in {
+  -webkit-animation: scaleUpFrom .5s ease both;
+  -moz-animation: scaleUpFrom .5s ease both;
+  animation: scaleUpFrom .5s ease both;
+}
+
+.owl-fadeUp-out {
+  -webkit-animation: scaleUpTo .5s ease both;
+  -moz-animation: scaleUpTo .5s ease both;
+  animation: scaleUpTo .5s ease both;
+}
+/* Keyframes */
+/*empty*/
+@-webkit-keyframes empty {
+  0% {opacity: 1}
+}
+@-moz-keyframes empty {
+  0% {opacity: 1}
+}
+@keyframes empty {
+  0% {opacity: 1}
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@keyframes fadeIn {
+  0% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@-moz-keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@keyframes fadeOut {
+  0% { opacity:1; }
+  100% { opacity:0; }
+}
+@-webkit-keyframes backSlideOut {
+  25% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(-200%); }
+}
+@-moz-keyframes backSlideOut {
+  25% { opacity: .5; -moz-transform: translateZ(-500px); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; -moz-transform: translateZ(-500px) translateX(-200%); }
+}
+@keyframes backSlideOut {
+  25% { opacity: .5; transform: translateZ(-500px); }
+  75% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+  100% { opacity: .5; transform: translateZ(-500px) translateX(-200%); }
+}
+@-webkit-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -webkit-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -webkit-transform: translateZ(-500px); }
+  100% { opacity: 1; -webkit-transform: translateZ(0) translateX(0); }
+}
+@-moz-keyframes backSlideIn {
+  0%, 25% { opacity: .5; -moz-transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; -moz-transform: translateZ(-500px); }
+  100% { opacity: 1; -moz-transform: translateZ(0) translateX(0); }
+}
+@keyframes backSlideIn {
+  0%, 25% { opacity: .5; transform: translateZ(-500px) translateX(200%); }
+  75% { opacity: .5; transform: translateZ(-500px); }
+  100% { opacity: 1; transform: translateZ(0) translateX(0); }
+}
+@-webkit-keyframes scaleToFade {
+  to { opacity: 0; -webkit-transform: scale(.8); }
+}
+@-moz-keyframes scaleToFade {
+  to { opacity: 0; -moz-transform: scale(.8); }
+}
+@keyframes scaleToFade {
+  to { opacity: 0; transform: scale(.8); }
+}
+@-webkit-keyframes goDown {
+  from { -webkit-transform: translateY(-100%); }
+}
+@-moz-keyframes goDown {
+  from { -moz-transform: translateY(-100%); }
+}
+@keyframes goDown {
+  from { transform: translateY(-100%); }
+}
+
+@-webkit-keyframes scaleUpFrom {
+  from { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpFrom {
+  from { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpFrom {
+  from { opacity: 0; transform: scale(1.5); }
+}
+
+@-webkit-keyframes scaleUpTo {
+  to { opacity: 0; -webkit-transform: scale(1.5); }
+}
+@-moz-keyframes scaleUpTo {
+  to { opacity: 0; -moz-transform: scale(1.5); }
+}
+@keyframes scaleUpTo {
+  to { opacity: 0; transform: scale(1.5); }
+}
