@@ -6,9 +6,16 @@ class UsersController < ApplicationController
 
   def create
   	user = User.new(params[:user])
-  	response = user.create
-  	if response.parsed_response["status"] == :created
+  	response = user.create.parsed_response
+  	if response["status"] == :created
+      flash[:notice] =  response["message"]
+      redirect_to root_path
 
+    elsif responsee["status"] == :not_acceptable
+      flash[:notice] =  response["message"]
+      @user = User.new
+      @user.errors = response["errors"]
+      render "new"
   	end
   end
 
